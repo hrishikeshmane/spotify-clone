@@ -10,10 +10,12 @@ import PauseCircleOutlineIcon from "@material-ui/icons/PauseCircleOutline";
 import PlaylistPlayIcon from "@material-ui/icons/PlaylistPlay";
 import "./Footer.css";
 import { Grid, Slider } from "@material-ui/core";
-import SpotifyWebApi from "spotify-web-api-node";
+
 
 function Footer({spotify}) {
     const [{ token, item, playing }, dispatch] = useStateValue();
+
+
     
     const handlePlayPause = () => {
         if (playing) {

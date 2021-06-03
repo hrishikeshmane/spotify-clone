@@ -48,7 +48,6 @@ function App() {
     }
 
     //TODO getMyTopArtists
-    
   }, [token, dispatch])
   // console.log(user)
   // console.log(token)
